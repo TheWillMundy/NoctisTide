@@ -26,7 +26,7 @@ class StartPage extends Component {
   }
 
   changePage() {
-
+    this.props.pageChanged();
   }
 
   render() {
